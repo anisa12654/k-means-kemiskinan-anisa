@@ -221,10 +221,6 @@ with tab_dasbor:
             with res3:
                 st.markdown("### 🗺️ Peta Persebaran Klaster Kemiskinan")
 
-                try:
-                    with open("data/indonesia-prov.geojson") as f:
-                        geojson_data = json.load(f)
-
                     df_final["provinsi"] = df_final["provinsi"].str.title()
 
                     fig_map = px.choropleth(
@@ -284,3 +280,4 @@ with tab_biodata:
     st.write("NPM   : 2211050024")
 
     st.write("Prodi : Sistem Informasi")
+
