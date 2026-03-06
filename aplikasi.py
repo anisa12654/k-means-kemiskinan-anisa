@@ -26,7 +26,7 @@ with col_logo2:
     st.image("SI.png", width=65)
 
 with col_logo3:
-    st.image("logo unggul SI.png", width=65)
+    st.image("logo_unggul_SI.png", width=65)
 
 with col_title:
     st.markdown("### ANALISIS KLASTERISASI DAN FLUKTUASI ANGKA KEMISKINAN DI INDONESIA")
@@ -280,4 +280,5 @@ with tab_biodata:
     st.write("NPM   : 2211050024")
 
     st.write("Prodi : Sistem Informasi")
+
 
